@@ -1,0 +1,264 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+body {
+    width: 1310px;
+    padding: 5px;
+    margin: auto;
+}
+
+main {
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: auto;
+}
+
+header h2, .picture h3{
+    visibility: hidden;
+    height: 1px;
+    margin: auto;
+}
+
+
+/*NAVIGATION CSS */
+
+
+h1 {
+    color: #007d7b;
+    display: inline-block;
+    padding-left: 40px;
+}
+
+nav {
+    display: inline-block;
+   padding-left: 100px;
+}
+
+nav ul{
+    padding-left: 100px;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 125px;
+}
+nav li:last-child{
+    padding-left:0%;
+}
+
+nav a {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+
+}
+
+nav a:hover {
+    color: #007d7b;
+}
+
+img[src="images/TK.png"] {
+    width: 850px;
+    float: left;
+    padding-top: 5px;
+}
+
+/*MAIN CSS */
+
+
+
+h1,h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.about {
+    font-size: 20px;
+    color: black;
+    float: right;
+    text-align: right;
+    width: 420px;
+    font-size: 20px;
+    margin-top: -40px;
+}
+
+.about p {
+    margin-top: -15px;
+
+}
+
+[href="#top"] {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+    background-color: #007d7b;
+}
+
+[href="#top"]:hover {
+    background-color: white;
+    color: #007d7b;
+}
+.gallery h2 {
+    margin: auto;
+}
+.gallery p{
+    font-size: 20px;
+    
+}
+
+
+/*IMAGE CSS */
+
+figure {
+    width: 420px;
+    margin: 5px;
+    float: left;
+    position: relative;
+}
+
+.standard {
+    width: 420px;
+    height: 281px;
+
+}
+
+.large {
+    width: 420px;
+    height: 630px;
+}
+
+figcaption {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tleftblack {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.tleftwhite {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+
+}
+
+.tleftwhite {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+}
+
+.lrightwhite {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+}
+
+.lleftwhite {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+
+.lrighttwhite {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+}
+
+.lleftblack {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: black;
+}
+
+
+/*CONTACT FORM CSS */
+.contact {
+    clear: both;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.contact h3 {
+    visibility: hidden;
+    height: 1px;
+}
+.contact h2, p {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.contactform {
+    width: 850px;
+    margin: auto;
+    border: none;
+    display: block;
+    
+
+}
+
+.contactform input {
+    display: block;
+    width: 850px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.contactform label {
+    display: block;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+input::placeholder {
+    color: #007d7b;
+    font-weight: bold;
+}
+
+button {
+    background-color: #007d7b;
+    color: white;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+/*FOOTER CSS */
+footer {
+    clear: both;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 25px;
+
+}

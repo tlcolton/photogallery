@@ -1,11 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>HTML Containers</title>
-		<meta charset="utf-8">				
-		<!--Tiffany Colton-->
-	</head>
-	<body>
-		<header>
-			<h1>This is just a test</h1>
-		</header>
+
+<head>
+    <title>Photogallery</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Tiffany Colton">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>TK Photography</h1>
+        <nav>
+            <h2>Main Navigation</h2>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#top">^Top</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="about">
+            <!--About-->
+            <h2>About</h2>
+
+            <p>Hello!</p>
+            <p>I’m TK and I’m a photographer.<br>I love looking at life through the lens of my camera. Landscape
+                photography is my speciality and it’s taken me all over the world.</p>
+        </section>
+        <img src="TK.png" alt="Image of Photographer">
+
+
+        <section class="gallery">
+            <!--Gallery Info-->
+            <h2>Gallery</h2>
+            <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+        </section>
+        
+            <section class="picture">  <!--Picture Gallery-->
+            <h3>Gallery images</h3>  
+     
+            <figure class="standard">
+                <img src="Chile.png" alt="Beach in Chile">
+                <figcaption class="tleftblack">Chile, 2001</figcaption>
+            </figure>
+
+            <figure class="standard">
+                <img src="Guatemala.png" alt="Beach in Guatemala">
+                <figcaption class="tleftwhite">Guatemala, 1997</figcaption>
+            </figure>
+
+            <figure class="standard">
+                <img src="Hawaii.png" alt="Hawaii Beach">
+                <figcaption class="lleftwhite">Hawaii, 2010</figcaption>
+            </figure>
+
+            <figure class="large">
+                <img src="Iran.png" alt="Iran Desert">
+                <figcaption class="tleftblack">Iran, 1999</figcaption>
+            </figure>
+
+            <figure class="large">
+                <img src="Ireland.png" alt="Ireland Hills">
+                <figcaption class="lrightwhite">Ireland, 2012</figcaption>
+            </figure>
+
+            <figure class="large">
+                <img src="Italy.png" alt="Italy Lake">
+                <figcaption class="lleftwhite">Italy, 2015 </figcaption>
+            </figure>
+
+            <figure class="standard">
+                <img src="Moab-Desert.png" alt="Moab Desert">
+                <figcaption class="lrightwhite">Moab Desert, 2020</figcaption>
+            </figure>
+
+            <figure class="standard">
+                <img src="Rocky-Mountains.png" alt="Rocky Mountains">
+                <figcaption class="tleftblack"> Rocky Mountains, 2009 </figcaption>
+            </figure>
+
+            <figure class="standard">
+                <img src="Switzerland.png" alt="Switzerland Snowy Mountains ">
+                <figcaption class="lleftblack">Switzerland, 2014</figcaption>
+            </figure>
+
+            <figure class="standard">
+                <img src="UK.png" alt="Uk Hills">
+                <figcaption class="lrightwhite">UK, 2005</figcaption>
+            </figure>
+
+            <figure class="standard">
+                <img src="USA.png" alt="USA Flower fields">
+                <figcaption class="tleftwhite">USA, 2021</figcaption>
+            </figure>
+
+            <figure class="standard">
+                <img src="Wyoming.png" alt="Wyoming Lake">
+                <figcaption class="tleftwhite">Wyoming, 2021</figcaption>
+            </figure>
+
+        </section>
+    </main>
+
+
+    <section class="contact"> <!--Contact Form at Page End-->
+         <h2>Contact</h2>
+        <p>Please fill out this form and I’ll connect with you soon.</p>
+        <form class="contactform">
+            <h3>Your Contact information</h3>
+
+            <label for="myName">Name</label>
+            <input type="text" name="myName" id="myName" required placeholder="Your Full Name">
+
+            <label for="myEmail">Email</label>
+            <input type="email" name="myEmail" id="myEmail" required placeholder="Enter your email Address">
+
+            <label for="myMessage"> Message</label>
+            <input type="text" id="myMessage" required placeholder="What Can I help you with?">
+
+            <button type="submit">Submit</button>
+        </form>
+
+    </section>
+    <!--End of Contact-->
+
+    <footer>
+        <small> Copyright 2021 TK Photography </small>
+    </footer>
+</body>
+
+</html>
